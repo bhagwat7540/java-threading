@@ -11,4 +11,5 @@ public interface MachineState {
     void selectDrink(CoffeeMachine m, DrinkType t, List<AddOns> ad);
     void dispense(CoffeeMachine m);
     void refund(CoffeeMachine m);
+
 }
